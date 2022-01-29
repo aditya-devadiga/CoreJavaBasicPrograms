@@ -4,7 +4,7 @@ public class StaticKeyword {
 	String name;
 	static String college ="Mumbai University";
 	
-	New(int r, String n){
+	StaticKeyword(int r, String n){
 		roll =r;
 		name =n;
 	}
@@ -13,8 +13,8 @@ public class StaticKeyword {
 		System.out.println(roll+" "+name+" "+college);
 	}
 	public static void main(String [] args) {
-		StaticKeywor s1=new StaticKeywor(1,"Alisha");
-		StaticKeywor s2=new StaticKeywor`(2,"Anisha");
+		StaticKeyword s1=new StaticKeyword(1,"Alisha");
+		StaticKeyword s2=new StaticKeyword(2,"Anisha");
 		s1.display();
 		s2.display();
 	}

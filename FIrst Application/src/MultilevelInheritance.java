@@ -1,4 +1,4 @@
-public class Multilevel {
+public class MultilevelInheritance {
 
 	public static void main(String[] args) {
 	
@@ -11,14 +11,14 @@ public class Multilevel {
 
 }
 
-class Car 
+class Car1 
 {
 	
 	void c() {
 		System.out.print("This is Car");
 	}
 }
-class Brand extends Car 
+class Brand extends Car1 
 {
 	
 	void b() {

@@ -1,4 +1,4 @@
-public class Hierarchical {
+public class HierarchicalInheritance {
 
 	public static void main(String[] args) {
 	

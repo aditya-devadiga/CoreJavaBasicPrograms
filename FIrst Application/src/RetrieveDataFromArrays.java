@@ -1,5 +1,5 @@
 //	Retrieving Data from 2D array with for loop
-public class Array {
+public class RetrieveDataFromArrays {
 	public static void main(String[] args) {
 		{int[] []x= {{10,20,30,40},{50,60}};
 		for (int i=0;i<x.length;i++) {
